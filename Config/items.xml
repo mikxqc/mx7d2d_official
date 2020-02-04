@@ -1,0 +1,4 @@
+<mx7d2d_official>
+	<!-- Boiled Water (drinkJarBoiledWater) -->
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">50</set>	
+</mx7d2d_official>
