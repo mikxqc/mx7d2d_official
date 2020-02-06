@@ -1,4 +1,6 @@
 <mx7d2d_official>
-	<!-- Boiled Water (drinkJarBoiledWater) -->
+	<!-- Boiled Water (drinkJarBoiledWater) Stack Size -->
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">50</set>	
+	<!-- Boiled Water (drinkJarBoiledWater) Water Gain -->
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">50</set>
 </mx7d2d_official>

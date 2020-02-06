@@ -1,0 +1,6 @@
+<mx7d2d_official>
+	<!-- Zombie "On-Death" Loot Bag -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.25</set>	
+	<!-- Zombie "On-Death" Loot Bag Living Time -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">3600</set>
+</mx7d2d_official>
