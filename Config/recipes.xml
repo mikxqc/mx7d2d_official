@@ -2,4 +2,14 @@
 	<!-- Concrete Mixing (resourceConcreteMix) -->
 	<remove xpath="/recipes/recipe[@name='resourceConcreteMix']/ingredient[@name='resourceRockSmall']"/>
 	<set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">5</set>
+	<!-- Add Vending Machine Recipe -->
+	<append xpath="/recipes">
+		<recipe name="cntVendingMachine" count="1">
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceSpring" count="20"/>
+		</recipe>
+	</append>
 </mx7d2d_official>
