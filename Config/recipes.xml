@@ -1,4 +1,11 @@
 <mx7d2d_official>
+	<!-- Cooking Fixes -->
+	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodEgg']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
 	<!-- Concrete Mixing (resourceConcreteMix) -->
 	<remove xpath="/recipes/recipe[@name='resourceConcreteMix']/ingredient[@name='resourceRockSmall']"/>
 	<set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">5</set>
