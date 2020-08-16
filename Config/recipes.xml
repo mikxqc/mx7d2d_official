@@ -1,4 +1,6 @@
 <mx7d2d_official>
+	<!-- Glue Recipe -->
+	<set xpath="/recipes/recipe[@name='resourceGlue']/ingredient[@name='resourceBone']/@count">1</set>
 	<!-- Cooking Fixes -->
 	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">1</set>
 	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodEgg']/@count">1</set>
