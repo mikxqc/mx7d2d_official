@@ -8,6 +8,8 @@
 	<set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
 	<set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">1</set>
 	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<!-- Farming Fixes -->
+	<set xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']/@count">1</set>
 	<!-- Concrete Mixing (resourceConcreteMix) -->
 	<remove xpath="/recipes/recipe[@name='resourceConcreteMix']/ingredient[@name='resourceRockSmall']"/>
 	<set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">5</set>
@@ -19,6 +21,14 @@
 			<ingredient name="resourceElectricParts" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="10"/>
 			<ingredient name="resourceSpring" count="20"/>
+		</recipe>
+	</append>
+	<!-- Add Car Battery Recipe -->
+	<append xpath="/recipes">
+		<recipe name="carBattery" count="1">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="50"/>
 		</recipe>
 	</append>
 </mx7d2d_official>
