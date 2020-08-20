@@ -1,4 +1,4 @@
 <mx7d2d_official>
 	<!-- Skill Points -->
-	<set xpath="/progression/level/@skill_points_per_level">2</set>
+	<set xpath="/progression/level/@skill_points_per_level">4</set>
 </mx7d2d_official>
