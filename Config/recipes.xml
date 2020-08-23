@@ -1,13 +1,14 @@
 <mx7d2d_official>
-	<!-- Glue Recipe -->
-	<set xpath="/recipes/recipe[@name='resourceGlue']/ingredient[@name='resourceBone']/@count">1</set>
+	<!-- Crafting Fixes -->
+	<set xpath="/recipes/recipe[@name='resourceGlue' and @craft_area='campfire']/ingredient[@name='resourceBone']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='resourceGlue' and @craft_area='chemistryStation']/ingredient[@name='resourceBone']/@count">2</set>
 	<!-- Cooking Fixes -->
-	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">2</set>
 	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodEgg']/@count">1</set>
-	<set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
-	<set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
-	<set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">1</set>
-	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
 	<!-- Farming Fixes -->
 	<set xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']/@count">1</set>
 	<!-- Concrete Mixing (resourceConcreteMix) -->

@@ -1,18 +1,82 @@
-<mx7d2d_official>
+<mx7d2d_official>	
+	<!-- Stack Size (Ammo) -->
+	<set xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">5000</set>
+	<!-- Stack Size (Can) -->
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber']/@value">5000</set>
 	<!-- Stack Size (Drink) -->
-	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">100</set>	
-	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">5000</set>	
+	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkCanEmpty']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">5000</set>
+	<!-- Stack Size (Food) -->
+	<set xpath="/items/item[@name='foodCornOnTheCob']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCornBread']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodMoldyBread']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCharredMeat']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodGrilledMeat']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodMeatStew']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodHoboStew']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodFishTacos']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodBakedPotato']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodBlueberryPie']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodPumpkinBread']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodGumboStew']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodShepardsPie']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodSpaghetti']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodTunaFishGravyToast']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodEggBoiled']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodBaconAndEggs']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">5000</set>
+	<!-- Stack Size (Medical) -->
+	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugRecog']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">5000</set>	
 	<!-- Boiled Water (drinkJarBoiledWater) Water Gain -->
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">50</set>
 </mx7d2d_official>

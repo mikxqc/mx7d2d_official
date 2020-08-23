@@ -1,0 +1,8 @@
+<mx7d2d_official>
+	<insertAfter xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']">
+		<texture name="ItemBackground" size="603,346" depth="10" pos="0,-46" material="Materials/Transparent Colored" texture="@https://i.imgur.com/77AcuoQ.jpg"/>
+	</insertAfter>
+	<append xpath="/windows/window[@name='serverjoinrulesdialog']/panel[@name='content']">
+		<texture name="ItemBackground" depth="10" size="900,500" texture="@https://i.imgur.com/EpUI8pv.jpg" material="Materials/Transparent Colored" pos="0,0" />
+	</append>
+</mx7d2d_official>
