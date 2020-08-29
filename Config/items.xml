@@ -76,7 +76,10 @@
 	<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='drugRecog']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='Stacknumber']/@value">5000</set>
-	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">5000</set>	
+	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">5000</set>
+	<!-- Stack Size (Resources) -->
+	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">5000</set>
 	<!-- Boiled Water (drinkJarBoiledWater) Water Gain -->
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">50</set>
 </mx7d2d_official>
