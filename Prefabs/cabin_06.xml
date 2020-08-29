@@ -1,4 +1,0 @@
-<mx7d2d_official>
-	<!-- Disable Quests from this prefab -->
-	<remove xpath="prefab/property[@name='QuestTags']"/>
-</mx7d2d_official>
